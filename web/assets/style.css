@@ -37,6 +37,7 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 .banner .welcome-message{position: absolute;left: 0;right:0;bottom:0;top:0;text-align: center;}
 .banner .welcome-message .wrap-info{display: table;height: 100%;width: 100%;}
 .banner .welcome-message .wrap-info .information{display: table-cell;vertical-align: middle;}
+
 .banner .arrow-nav{position: absolute;bottom:-3.5em;background-color: #bfa145;height: 7em;width: 7em;display: inline-block;z-index: 100;left: 50%;margin-left: -52px;color: #fff;border-radius: 50%;}
 .banner .arrow-nav i{font-size: 5em;line-height:105px;}
 .banner .arrow-nav:hover{background: #756534;}
@@ -46,6 +47,7 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 .reserve-info{background-color: #fff;}
 
 .services{background-color:#dedbd3; }
+
 .services .caption{background-color: #b9b2a0;color: #46433b;padding: 1.5em;}
 .services .caption a {color: #585650;font-size: 1.25em;}
 .services .caption a:hover{color: #fff;}
