@@ -65,11 +65,11 @@
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       
       <ul class="nav navbar-nav">        
-        <li><a href="index.jsp">Home </a></li>
+        <li><a href="index.jsp">Home </a></li>       
         <li><a href="rooms-tariff.jsp">Rooms</a></li>
         <li><a href="halls.jsp">Halls & Events</a></li>        
         <li><a href="introduction.jsp">Introduction</a></li>
-        <li><a href="gallery.jsp">Gallery</a></li>      
+        <li><a href="gallery.jsp">Gallery</a></li>
         <li><a href="contact.jsp">Contact</a></li>
       </ul>
     </div><!-- Wnavbar-collapse -->
