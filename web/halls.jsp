@@ -5,7 +5,7 @@
 --%>     
 <%@ include file ="header.jsp"%>
 <div class="container">
-<h2>Wedding & Event Halls</h2>
+<h2>Wedding</h2>
 <!-- form -->
 
 <div class="row">
