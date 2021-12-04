@@ -11,7 +11,7 @@
 <div class="row">
     <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/8.jpeg"  class="img-responsive"width="555px"height="215px"><div class="info"><h3>VIP LOUNGE(Wedding Hall)</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.jsp" class="btn btn-default">Check Details</a></div></div></div>
 
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/9.jpeg" class="img-responsive"width="555px"height="250px"><div class="info"><h3>GRAND BALLROOM(Wedding Hall)</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.jsp" class="btn btn-default">Check Details</a></div></div></div>
+  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/9.jpeg" class="img-responsive"width="555px"height="21px"><div class="info"><h3>GRAND BALLROOM(Wedding Hall)</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.jsp" class="btn btn-default">Check Details</a></div></div></div>
 
   <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/1.jpeg" class="img-responsive"><div class="info"><h3>THE LEGACY BALLROOM(Wedding Hall)</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.jsp" class="btn btn-default">Check Details</a></div></div></div>
  
