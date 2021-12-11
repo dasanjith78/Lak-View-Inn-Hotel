@@ -28,6 +28,10 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 .navbar-brand{height: 83px;}
 /*nav*/
 
+/*navbar signup button*/
+#signupbutton{
+    background-color:red;
+}
 
 
 /*SLIDER*/
