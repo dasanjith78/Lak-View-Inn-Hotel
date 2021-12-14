@@ -70,7 +70,8 @@
         <li><a href="halls.jsp">Halls & Events</a></li>        
         <li><a href="introduction.jsp">Introduction</a></li>
         <li><a href="gallery.jsp">Gallery</a></li>
-        <li><a href="contact.jsp">Contact & Feedback </a></li>
+        <li><a href="contact.jsp">Contact</a></li>
+        <li><a href="login.jsp"><button class="btn btn-default">Login</button></a></li>
       </ul>
     </div><!-- Wnavbar-collapse -->
   </div><!-- container-fluid -->
