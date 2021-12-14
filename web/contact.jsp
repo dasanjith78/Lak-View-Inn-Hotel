@@ -17,7 +17,7 @@
        	</div>
 
 
-		<div class="col-sm-6 col-sm-offset-3">
+		<div class="col-sm-6 col-sm-offset-0">
 			<div class="spacer">   		
 
        		<h4>Write to us</h4>
@@ -36,6 +36,7 @@
 			</div>
 					
 			<button type="submit" class="btn btn-default">Send</button>
+                        <h3> 
 			</form>
 			</div>
 
