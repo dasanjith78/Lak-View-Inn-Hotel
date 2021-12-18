@@ -1,6 +1,6 @@
 <%-- 
-    Document   : nesignup
-    Created on : Dec 11, 2021, 7:26:51 PM
+    Document   : Register
+    Created on : Dec 18, 2021, 9:43:43 PM
     Author     : Dasanjith Gunaratne
 --%>
 
@@ -8,14 +8,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>login form</title>
+        <title>Register form</title>
     </head>
     <body>
-        <form method="post" action="./login">
+        <form method="post" action="./register">
+        Name:<input type="text" name="name" /><br/>
         Email ID:<input type="text" name="email" /><br/>
         Password:<input type="text" name="pass" /><br/>
-        <input type="submit" value="login" /><br/>
-        <a href="Register.jsp"> Click here to register </a>
+        <input type="submit" value="register" />
         </form>
     </body>
 </html>
