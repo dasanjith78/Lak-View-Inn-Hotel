@@ -40,8 +40,6 @@
     <!--/.footer-bottom--> 
 </footer>
 
-<div class="text-center copyright">Powered by <a href="http://thebootstrapthemes.com">thebootstrapthemes.com</a></div>
-
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 
 
