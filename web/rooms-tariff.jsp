@@ -2,7 +2,7 @@
 
 <div class="container">
 
-<h2>Rooms & Tariff</h2>
+<h2>Rooms</h2>
 
 
 <!-- form -->
