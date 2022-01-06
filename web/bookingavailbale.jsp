@@ -2,7 +2,7 @@
 <html>
     <head>
    
-        <title>JSP Page</title>
+        <title>Lak View Inn</title>
     </head>
     <body>
         <style>
@@ -157,7 +157,7 @@ input[type=submit]:hover {
               </select></div>
             </div>
             <div class="col-xs-4">
-              <div class="selector" style="width: 96px;"><span style="width: 74px; user-select: none;">2021</span><select class="form-control" name="expiry-year">
+              <div class="selector" style="width: 96px;"><span style="width: 74px; user-select: none;">Year</span><select class="form-control" name="expiry-year">
                 <option value="20">2020</option>
                 <option value="21">2021</option>
                 <option value="22">2022</option>
@@ -226,7 +226,7 @@ input[type=submit]:hover {
               </select></div>
             </div>
             <div class="col-xs-4">
-              <div class="selector" style="width: 96px;"><span style="width: 74px; user-select: none;">2021</span><select class="form-control" name="expiry-year">
+              <div class="selector" style="width: 96px;"><span style="width: 74px; user-select: none;">Year</span><select class="form-control" name="expiry-year">
                 <option value="20">2020</option>
                 <option value="21">2021</option>
                 <option value="22">2022</option>

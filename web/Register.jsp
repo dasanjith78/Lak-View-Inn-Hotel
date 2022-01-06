@@ -4,14 +4,8 @@
     Author     : Dasanjith Gunaratne
 --%>
 
-<%@page import="com.sun.xml.rpc.processor.modeler.j2ee.xml.string"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Register form</title>
-    </head>
-    <body>
+<%@ include file ="header.jsp"%>
+
         <%
             String rd = (String)request.getAttribute("errMsg");
             if(rd == null){
@@ -28,5 +22,20 @@
             
         <input type="submit" value="register" />
         </form>
-    </body>
-</html>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<%@ include file ="footer.jsp"%>
