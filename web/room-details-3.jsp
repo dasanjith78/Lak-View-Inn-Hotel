@@ -43,6 +43,7 @@
         <h4>PRICE</h4>
       <div><span>LKR180000</span></div>
     </div>
+      <button type="button"><b>BOOK</b></button>
   </div>
 </div>
                      
