@@ -9,9 +9,8 @@
  <!-- RoomDetails -->
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/8.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/9.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/10.jpg"  class="img-responsive" alt="slide"></div>
+                    <div class="item active"><img src="images/photos/IMG_6950.jpeg" class="img-responsive" alt="slide"></div>
+                    <div class="item  height-full"><img src="images/photos/IMG_5375.jpeg"  class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -26,7 +25,7 @@
     <p>By Learning Ways To Become Peaceful. One of the greatest barriers to making the sale is your prospect's natural. Don't stubbornly. Don't stubbornly. Don't stubbornly. -And Gain Power By Learning Ways To Become Peaceful. </p>
     </div>
     <div class="col-sm-6 col-md-3 amenitites"> 
-    <h3>Amenitites</h3>    
+    <h3>Facilities</h3>    
     <ul>
       <li>One of the greatest barriers to making the sale is your prospect.</li>
       <li>Principle to work to make more money while having more fun.</li>
@@ -38,11 +37,12 @@
     
 
     </div>  
+
     <div class="col-sm-3 col-md-2">
-      <div class="size-price">Size<span>44 sq</span></div>
-    </div>
-    <div class="col-sm-3 col-md-2">
-      <div class="size-price">Price<span>$200.00</span></div>
+      Price<span>Lkr150000.00</span>
+      <form method="post" action="bookingavailbale.jsp">
+          <div><button type="submit">Book</button></div>
+      </form>
     </div>
   </div>
 </div>

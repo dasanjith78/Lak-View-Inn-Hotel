@@ -41,6 +41,10 @@
        <div class="col-sm-3 col-md-2">
       <h4>PRICE<h4>
       <div><span>LKR15000.00</span></div>
+      
+      <form method="post" action="bookingavailbale.jsp">
+          <div><button type="submit">Book</button></div>
+      </form>
     </div>
   </div>
 </div>
