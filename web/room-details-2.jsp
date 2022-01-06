@@ -24,6 +24,9 @@
     <div class="col-sm-12 col-md-5"> 
     <p> Our Premium Room are comfortable and homely space to rest,overlooking the estates below and mountains in the distance.Each room has its own unique charm,with elegant finishes.</p>
    
+    
+    
+
     </div>
     <div class="col-sm-6 col-md-3 facility"> 
     <h3>FACILITY</h3>    
@@ -41,7 +44,11 @@
        <div class="col-sm-3 col-md-2">
       <h4>PRICE<h4>
       <div><span>LKR15000.00</span></div>
+      
+      
+      
     </div>
+      <button type="button"><b>BOOK</b></button>
   </div>
 </div>
                      
