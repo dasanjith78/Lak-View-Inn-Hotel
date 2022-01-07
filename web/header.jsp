@@ -58,7 +58,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.jsp"><img src="images/logo.png"  alt="holiday crown"></a>
+        <a class="navbar-brand" href="index.jsp"><img src="images/photos/logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

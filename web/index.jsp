@@ -5,7 +5,7 @@
 
 <!-- banner -->
 <div class="banner">    	   
-    <img src="images/photos/banner.jpg"  class="img-responsive" alt="slide">
+    <img src="images/photos/IMG_7432.jpeg"  class="img-responsive" alt="slide">
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
@@ -41,9 +41,8 @@
             <!-- RoomCarousel -->
             <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/8.jpg" class="img-responsive" alt="slide"></div>                
-                <div class="item  height-full"><img src="images/photos/9.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/10.jpg"  class="img-responsive" alt="slide"></div>
+                    <div class="item active"><img src="images/photos/3.jpeg" class="img-responsive" alt="slide"></div>                
+                
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -59,8 +58,7 @@
             <div id="TourCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                 <div class="item active"><img src="images/photos/6.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/3.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/4.jpg"  class="img-responsive" alt="slide"></div>
+               
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -75,9 +73,8 @@
             <!-- RoomCarousel -->
             <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/1.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/2.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/5.jpg"  class="img-responsive" alt="slide"></div>
+                    <div class="item active"><img src="images/photos/5.jpeg" class="img-responsive" alt="slide"></div>
+                
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
