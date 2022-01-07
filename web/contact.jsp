@@ -4,7 +4,7 @@
 <h1 class="title">Contact</h1>
 <address>
     
-Visit us at:mailto:webmaster@example.com<br>
+Visit us at:lakview@gmail.com<br>
 Box 564, Haputhale<br>
 Sri Lanka
 </address>
