@@ -5,7 +5,7 @@
 
 <!-- banner -->
 <div class="banner">    	   
-    <img src="images/photos/IMG_7432.jpeg"  class="img-responsive" alt="slide">
+    <img src="images/photos/comjava1233.jpg"  class="img-responsive" alt="slide">
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">

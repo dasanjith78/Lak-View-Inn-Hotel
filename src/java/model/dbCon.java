@@ -7,8 +7,11 @@ package model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -30,7 +33,39 @@ public class dbCon
                 Logger.getLogger(dbCon.class.getName()).log(Level.SEVERE, null, ex);
             }
     }
+         
         
+         
+         public List checkLogin(String email, String pass) {
+        
+          ConnectDB();
+               
+        List loginList=new ArrayList();
+        ConnectDB();
+        String query="SELECT * FROM guest where email LIKE '%"+email+"%'";
+        
+            try {
+                ResultSet rs = st.executeQuery(query);
+                
+                
+                 while(rs.next())
+            {
+               
+                loginList.add(rs.getString("email"));
+                loginList.add(rs.getString("password"));   
+            }
+                
+            } catch (SQLException ex) {
+                Logger.getLogger(dbCon.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        
+        return loginList;
+        
+        
+    }
+         
+         
+         
          private void ConnectDB() {
        
          try {

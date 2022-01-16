@@ -5,14 +5,19 @@
  */
 package controller;
 
+
+
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.dbCon;
+import model.emailCheck;
+
 
 public class login extends HttpServlet {
 
@@ -76,7 +81,47 @@ public class login extends HttpServlet {
         String email = request.getParameter("email");
         String pass = request.getParameter("pass");
         
+        out.println(email);
+        out.println(pass);
         
+//        dbCon logObj = new dbCon();
+//        logObj.checkLogin(email, pass);
+        
+        emailCheck b=new emailCheck();
+          boolean check=b.viewdata(email);
+        
+          dbCon c = new dbCon();
+          List blist= c.checkLogin(email,pass);
+          
+
+                 if(check==false){
+               String msg="username or password incorrect";
+               out.println(msg);
+               request.setAttribute("messageTwo",msg);
+               RequestDispatcher rd = request.getRequestDispatcher("./login.jsp");
+               rd.forward(request, response);
+             }
+            
+             if(check==true){
+                   
+                   String emailss=((String) blist.get(0));
+                   String passw = ((String) blist.get(1));
+                   
+                 if("admin".equals(passw) && "admin@gmail.com".equals(emailss)){
+                      RequestDispatcher rd = request.getRequestDispatcher("./adminpanel.jsp");
+                      rd.forward(request, response);
+                 }
+                   else if(pass.equals(passw) && email.equals(emailss)){
+                      RequestDispatcher rd = request.getRequestDispatcher("./index.jsp");
+                      rd.forward(request, response);
+                 }else{
+               String msg="username or password incorrect";
+               out.println(msg);
+               request.setAttribute("messageTwo",msg);
+               RequestDispatcher rd = request.getRequestDispatcher("./login.jsp");
+               rd.forward(request, response);
+                    }
+             }
         
         
         
