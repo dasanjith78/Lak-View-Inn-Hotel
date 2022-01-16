@@ -10,7 +10,7 @@
         <div class="wrap-info">
             <div class="information">
                 <h1  class="animated fadeInDown">Best hotel in Sri Lanka</h1>
-                <p class="animated fadeInUp">Most luxurious hotel of asia with the royal treatments and excellent customer service.</p>                
+                <p class="animated fadeInUp">Most luxurious hotel of Asia with the royal treatments and excellent customer service.</p>                
             </div>
             <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
         </div>
