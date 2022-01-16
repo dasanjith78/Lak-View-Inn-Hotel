@@ -1,10 +1,9 @@
-package controller;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,12 +11,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.sql.*;
-import javax.servlet.RequestDispatcher;
-import model.dbCon;
-import model.registerValidation;
+import javax.servlet.http.HttpSession;
+import model.checkRoomAvailability;
 
-public class register extends HttpServlet {
+public class checkAvailability extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,10 +33,10 @@ public class register extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet register</title>");            
+            out.println("<title>Servlet checkAvailability</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet register at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet checkAvailability at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -71,34 +68,31 @@ public class register extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        
-        String name = request.getParameter("name");
-        String email = request.getParameter("email");
-        String pass = request.getParameter("pass");
-	
-        registerValidation valObj = new registerValidation();
-        boolean check = valObj.regVal(email);
-        
-        if (check == true){
-//            String errMsg = "Email already taken!";
-            out.println(" Email already taken!");
-//            request.setAttribute("msg", errMsg);
-//            RequestDispatcher rd = request.getRequestDispatcher("./Register.jsp");
-//            rd.forward(request, response);
-        }
-        else{
-            dbCon regObj = new dbCon();
-            regObj.addData(name, email, pass);
-            out.println("Success");
-            
-            
-        }
-        
-        
 //        processRequest(request, response);
+
+        PrintWriter out = response.getWriter();
+        String roomType = request.getParameter("room_type");
+//        String nights = request.getParameter("nights");
+        int rooms = Integer.parseInt(request.getParameter("rooms"));
+//        String noOfGuest = request.getParameter("no_of_guests");
+        String ArrivalDate = request.getParameter("arrival_date");
+        String DepatureDate = request.getParameter("departure_date");
+//        out.println(roomType);
+//        out.println(rooms);
+//        out.println(ArrivalDate);
+//        out.println(DepatureDate);
+        
+        checkRoomAvailability c = new checkRoomAvailability();
+        
+        String check=c.availibility(rooms,roomType);
+          
+          HttpSession session = request.getSession();
+          session.setAttribute("rooms",rooms);
+          session.setAttribute("roomType",roomType);
+          
+          session.setAttribute("status", check);
+          response.sendRedirect("./bookingavailbale.jsp");
+        
     }
 
     /**
@@ -112,4 +106,3 @@ public class register extends HttpServlet {
     }// </editor-fold>
 
 }
-    

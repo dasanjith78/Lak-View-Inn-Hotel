@@ -1,10 +1,9 @@
-package controller;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,12 +11,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.sql.*;
-import javax.servlet.RequestDispatcher;
-import model.dbCon;
-import model.registerValidation;
 
-public class register extends HttpServlet {
+/**
+ *
+ * @author Dasanjith Gunaratne
+ */
+public class sendsms extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,10 +35,10 @@ public class register extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet register</title>");            
+            out.println("<title>Servlet sendsms</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet register at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet sendsms at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -71,34 +70,7 @@ public class register extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        
-        String name = request.getParameter("name");
-        String email = request.getParameter("email");
-        String pass = request.getParameter("pass");
-	
-        registerValidation valObj = new registerValidation();
-        boolean check = valObj.regVal(email);
-        
-        if (check == true){
-//            String errMsg = "Email already taken!";
-            out.println(" Email already taken!");
-//            request.setAttribute("msg", errMsg);
-//            RequestDispatcher rd = request.getRequestDispatcher("./Register.jsp");
-//            rd.forward(request, response);
-        }
-        else{
-            dbCon regObj = new dbCon();
-            regObj.addData(name, email, pass);
-            out.println("Success");
-            
-            
-        }
-        
-        
-//        processRequest(request, response);
+        processRequest(request, response);
     }
 
     /**
@@ -112,4 +84,3 @@ public class register extends HttpServlet {
     }// </editor-fold>
 
 }
-    
