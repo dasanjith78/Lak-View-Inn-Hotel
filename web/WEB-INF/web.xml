@@ -20,6 +20,18 @@
         <servlet-name>registerValidataion</servlet-name>
         <servlet-class>controller.registerValidataion</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>checkAvailability</servlet-name>
+        <servlet-class>controller.checkAvailability</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>payapal</servlet-name>
+        <servlet-class>controller.payapal</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sendsms</servlet-name>
+        <servlet-class>controller.sendsms</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>test</servlet-name>
         <url-pattern>/test</url-pattern>
@@ -39,6 +51,18 @@
     <servlet-mapping>
         <servlet-name>registerValidataion</servlet-name>
         <url-pattern>/registerValidataion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>checkAvailability</servlet-name>
+        <url-pattern>/checkAvailability</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>payapal</servlet-name>
+        <url-pattern>/payapal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sendsms</servlet-name>
+        <url-pattern>/sendsms</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

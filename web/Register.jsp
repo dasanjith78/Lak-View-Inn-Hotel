@@ -13,15 +13,22 @@
             }
             
         %>
+        <center>
+    <table>
+        
         <form method="post" action="./register">
-        Name:<input type="text" name="name" /><br/>
-        Email ID:<input type="text" name="email" /><br/>
-        Password:<input type="text" name="pass" /><br/>
+        <tr><td>Name:</td><td><input type="text" name="name" /></td></tr><br/>
+        <tr><td> </td></tr>
+        <tr><td>Email ID:</td><td><input type="text" name="email" /></td></tr><br/>
+        <tr><td> </td></tr>
+        <tr><td>Password:</td><td><input type="text" name="pass" /></td></tr><br/>
         
         <p><%=rd%></p>
-            
-        <input type="submit" value="register" />
+            <tr><td> </td></tr>
+        <tr><td><input type="submit" value="register" /></td></tr>
         </form>
+    </table>
+        </center>
 <br>
 <br>
 <br>

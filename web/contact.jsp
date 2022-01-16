@@ -22,7 +22,7 @@ Sri Lanka
 		<div class="col-sm-6 col-sm-offset-0">
 			<div class="spacer">   		
 
-       		<h4>Wite Us..</h4>
+       		<h4>Write Us..</h4>
 			<form role="form">
 			<div class="form-group">	
 			<input type="text" class="form-control" id="name" placeholder="Name">

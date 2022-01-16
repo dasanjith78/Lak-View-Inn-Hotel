@@ -83,10 +83,11 @@ public class register extends HttpServlet {
         boolean check = valObj.regVal(email);
         
         if (check == true){
-            String errMsg = "Email already taken!";
-            request.setAttribute("msg", errMsg);
-            RequestDispatcher rd = request.getRequestDispatcher("./Register.jsp");
-            rd.forward(request, response);
+//            String errMsg = "Email already taken!";
+            out.println(" Email already taken!");
+//            request.setAttribute("msg", errMsg);
+//            RequestDispatcher rd = request.getRequestDispatcher("./Register.jsp");
+//            rd.forward(request, response);
         }
         else{
             dbCon regObj = new dbCon();
